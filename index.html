@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="shortcut icon" href="images/community.jpg"/>
+        <title>The Community Hub</title>
+    </head>
+    
+    <body>
+        <h1 id="hello">The Community Hub</h1>
+        <h3 id="registerationform">Registeration Form</h3>
+        <hr style="height:1px;border-width:1px;border-color: rebeccapurple;background-color: red;">
+        <br><br>
+
+        <img src="images/community.jpg" alt="Together Everyone Achieves the Most" style="float:right ;height:50vh; width:60vw">
+        
+        <div class="regdata">
+            <label class="labels">*First Name:</label>
+            <input type="text" class="datafield" placeholder="Enter your First Name" id="firstname" value="">
+        </div><br>
+        <div class="regdata">
+            <label class="labels">*Last Name:</label>
+            <input type="text" class="datafield" placeholder="Enter your Last Name" id="lastname" value="">
+        </div><br>
+        <div class="regdata">
+            <label class="labels">*Email:</label>
+            <input type="text" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/i" class="datafield" placeholder="Enter your Email" id="email" value="">
+        </div><br>
+        <div class="regdata">
+            <label class="labels">*Postal Address:</label>
+            <input type="text" class="datafield" placeholder="Enter your Full Address" id="address" value="">
+        </div><br>
+        <div class="regdata">
+            <label class="labels">*Password:</label>
+            <input type="password" class="datafield" placeholder="Enter your Password" id="password1" value="">
+        </div><br>
+        <div class="regdata">
+            <label class="labels">*Confirm Password:</label>
+            <input type="password" class="datafield" placeholder="Confirm your Password" id="password2" value="">
+        </div><br>
+
+        <br>
+        <button class="submitbutton" id="register" type="submit">Register</button>
+    
+
+        <script src="ch.js"></script>
+                
+    </body>
+</html>
